@@ -1,0 +1,30 @@
+@keyframes rot{
+	0%{
+		transform:rotate(0deg);
+	}
+	100%{
+		transform:rotate(360deg);
+	}
+}
+.container{
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:10%;
+	width:400px;
+	height:400px;
+}
+.load{
+	    width: 100%;
+    height: inherit;
+    border: 10px solid #757575;
+    border-radius: 50%;
+    border-left: none;
+    border-left-style: outset;
+    border-left-color:transparent;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-top: none;
+	animation:rot 5s linear;
+	animation-iteration-count:infinite;
+	
+}
